@@ -1,0 +1,45 @@
+Carrera = "Ingeniería en computación"
+print(Carrera)
+print(Carrera[24])
+print(Carrera[-1]) #indexado negativo al 24 lo convertimos en -1 
+print(Carrera[-25]) #aqui si existe el 25 porque en matematicas no existe el -0
+
+#ciclo for
+for letra in Carrera:
+    print("--->",letra,"<---")
+   
+Carrera = "Ingeniería en computación"
+print(Carrera[0 : 10 : 1])
+print(Carrera[14 : 25 : 1])
+print(Carrera[-11 :  : 1])
+print(Carrera[ : 10 : ])
+print(Carrera[-11 :  : 1])
+print(Carrera[14 : 25 : ])
+#solucion previa
+print("-------------->")
+print(Carrera[-11 : -1 : 1])
+print(Carrera[-11 :  : 1])
+#ejercicio para ver incremento
+print(Carrera[0 : 10 : 2])
+print(Carrera[-1 : -12 : -2])
+print(Carrera[25 : 13 : -1])
+
+frutas = "  limon , fresa, manzana  , aguacate  "
+nombre = "jose"
+print(frutas)
+print(nombre.capitalize())
+print(nombre.upper())
+print(frutas.replace('a', '4').replace('e','3').upper() )
+frutas = frutas.replace('a', '4').replace('e','3').upper() #hacer cambio permanente
+print(frutas)
+print(".-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-")
+frutas = "  limon , fresa, manzana  , aguacate  "
+print(frutas.strip())
+print(frutas.split())
+print(frutas.split( ',' ))
+dir(frutas)
+help(str)
+
+print(" \"jose\" ")
+carrera = "ingenieria \n\ten \n\t\tcomputación"
+print(carrera)
